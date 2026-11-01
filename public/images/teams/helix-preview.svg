@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bg_5" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#100D1D" />
+        <stop offset="100%" stop-color="#171328" />
+      </linearGradient>
+      <pattern id="pat_5" width="30" height="30" patternUnits="userSpaceOnUse">
+        <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="800" height="450" fill="url(#bg_5)"/>
+    <rect width="800" height="450" fill="url(#pat_5)"/>
+    <circle cx="400" cy="225" r="140" fill="none" stroke="rgba(155, 112, 255, 0.25)" stroke-width="2" stroke-dasharray="8 8"/>
+    <circle cx="400" cy="225" r="90" fill="rgba(53, 213, 255, 0.08)" stroke="#35D5FF" stroke-width="1.5"/>
+    <text x="400" y="215" text-anchor="middle" fill="#35D5FF" font-family="'DM Mono', monospace" font-size="14" letter-spacing="4" font-weight="700">ZAYATHON 2.0 • PROJECT SHOWCASE</text>
+    <text x="400" y="250" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="800">ARCHITECTURE DEMO</text>
+  </svg>

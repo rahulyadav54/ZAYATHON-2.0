@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+    <defs>
+      <linearGradient id="g_hyperscale" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#743BFF" />
+        <stop offset="100%" stop-color="#35D5FF" />
+      </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="40" fill="#171328" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <circle cx="100" cy="100" r="70" fill="url(#g_hyperscale)" opacity="0.15"/>
+    <circle cx="100" cy="100" r="50" fill="none" stroke="url(#g_hyperscale)" stroke-width="3" stroke-dasharray="6 6"/>
+    <text x="100" y="112" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="900" letter-spacing="2">HS</text>
+  </svg>

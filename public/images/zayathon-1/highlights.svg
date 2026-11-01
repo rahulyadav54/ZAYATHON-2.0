@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080811" />
+      <stop offset="40%" stop-color="#140E2A" />
+      <stop offset="100%" stop-color="#06060C" />
+    </linearGradient>
+    <linearGradient id="gradf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#35D5FF" />
+      <stop offset="50%" stop-color="#9B70FF" />
+      <stop offset="100%" stop-color="#743BFF" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(116, 59, 255, 0.35)" />
+      <stop offset="100%" stop-color="rgba(8, 8, 17, 0)" />
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bgf)"/>
+  <circle cx="640" cy="360" r="320" fill="url(#glow)"/>
+
+  <!-- Geometric grid & accent rings -->
+  <circle cx="640" cy="360" r="220" fill="none" stroke="rgba(155, 112, 255, 0.2)" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <circle cx="640" cy="360" r="160" fill="none" stroke="rgba(53, 213, 255, 0.3)" stroke-width="1"/>
+
+  <!-- Play visual -->
+  <circle cx="640" cy="360" r="54" fill="url(#gradf)"/>
+  <polygon points="632,342 656,360 632,378" fill="#FFFFFF"/>
+
+  <text x="640" y="240" text-anchor="middle" fill="#35D5FF" font-family="'DM Mono', monospace" font-size="16" letter-spacing="4" font-weight="700">ZAYATHON 1.0 OFFICIAL HIGHLIGHT REEL</text>
+  <text x="640" y="470" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="800">RELIVE THE ENERGY &amp; PASSION</text>
+  <text x="640" y="505" text-anchor="middle" fill="#A5A0B5" font-family="Inter, sans-serif" font-size="16">Edition 01 Aftermovie &amp; Retrospective</text>
+</svg>
